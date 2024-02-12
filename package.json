@@ -15,6 +15,7 @@
     "@egjs/flicking-plugins": "^4.7.1",
     "@egjs/svelte-flicking": "^4.11.2",
     "astro": "^4.3.6",
+    "sharp": "^0.33.2",
     "svelte": "^4.2.10",
     "typescript": "^5.3.3"
   }
