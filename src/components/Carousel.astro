@@ -1,0 +1,12 @@
+---
+import Flick from "@components/Flick.svelte";
+import surcyclage from "@assets/atelierfrancais.png";
+import ImageWrapper from "@components/ImageWrapper.astro";
+---
+
+<Flick client:idle class="flicker">
+  <ImageWrapper slot="image-1" image={surcyclage} alt="logo for surcyclage" />
+  <ImageWrapper slot="image-2" image={surcyclage} alt="logo for surcyclage" />
+  <ImageWrapper slot="image-3" image={surcyclage} alt="logo for surcyclage" />
+  <ImageWrapper slot="image-4" image={surcyclage} alt="logo for surcyclage" />
+</Flick>
